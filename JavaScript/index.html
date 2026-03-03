@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //string__
+        var myName="ABHAY";
+        console.log("my name is",myName);
+        console.log(typeof(myName));
+        //number
+        var myMob="9856786789";
+        console.log("my mobile no is",myMob);
+        console.log(typeof(myMob));
+        //boolean
+        var isMarried=true;
+        console.log(myName,"is married",isMarried);
+        console.log(typeof(isMarried));
+        //undefined
+        var myadd;
+        console.log(myName,"address is",myadd);
+        console.log(typeof(myadd));
+        //null
+        var myEmail=null;
+        console.log(myEmail,"email address is",myEmail)
+        console.log(typeof(myEmail))
+        //height
+        var myValue=bigtnt("374067574665");
+        console.log(myvalue);
+        console.log(typeof(myValue));
+        //symbol unique primitive data type in js
+        var val1=Symbol("hello");
+        var val2=Symbol("hello");
+        console.log(val1=val2);
+        console.log(typeof(val1)+"add"+typeof(val2));
+
+        //Reference or non primitive Data Value Types=========
+        //object ()- value are defined in paired of key-value
+        let myinfo={
+            name:"Vikas",
+            age:23,
+            mob:9876544321,
+            eMail:"vikas2010@gmail.com",
+            ismarried:false,
+            address:null,
+            branch:"CSE",
+            section:18
+        };
+        console.log(myinfo);
+        //to find length of object
+        console.log(key.object(myinfo).length);
+        console.log(myinfo.branch);
+        //array- collection of any data types in js
+        let studentDetail= ["Megha",
+                            24,
+                            "megha2gmail.com",
+                            "GZB"];
+        console.log(studentDetail[2]);
+        console.log(studentDetail.length);
+
+        for(i=0;i<studentDetail.length;i++){
+        console.log(studentDetail[i]);
+        }
+        
+        //function - block of code i.e. perform particular any task
+        function myCal(){
+                        let num1=5;
+                        let num2=10;
+                        let result=num1+num2;
+                        console.log("addition of two number is"+
+                        (num1+num2));
+                        console.log(result);
+        }
+        myCal()
+
+    </script>
+    
+</body>
+</html>
