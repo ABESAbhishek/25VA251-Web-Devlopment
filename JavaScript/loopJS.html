@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //loops are used to perform repeated tasks based on a condition, or to iterate over data structures like arrays and objects.
+        
+        // for loop
+        let studentList = ["Alice", "Bob", "Charlie", "David", "Eve"];
+        for (let i = 0; i < studentList.length; i++) 
+        {
+            console.log(studentList[i]);
+        }
+
+        //while loop
+        let x=0;
+        while(x<studentList.length)
+        {
+            console.log(studentList[x]);
+            x++;
+        }
+
+        //for-of loop
+        //A modern loop introduced in ES6 for iterating over the values of iterable objects, such as Array, String, Map, and Set. It is the preferred way to iterate over array values.
+        for(let y of studentList)
+        {
+            console.log(y);
+        }
+        
+    </script>
+</body>
+</html>
