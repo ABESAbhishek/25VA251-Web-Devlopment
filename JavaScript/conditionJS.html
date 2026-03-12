@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condition in javaScript</title>
+</head>
+<body>
+    <script>
+        //Conditional statements in JavaScript control the flow of execution, allowing the program to perform different actions based on whether a condition is true or false. 
+        // The primary types of conditional statements are if, else, else if, switch, and the ternary operator.
+        let age=33;
+        //if-else statement
+        if(age<18)
+        {
+            console.log("You are a minor.");
+        }
+        else
+        {
+            console.log("You are an adult.");
+        }
+
+        //switch case statement
+        let grade='A';
+        switch(grade)
+        {
+            case 'A':
+                result=("First Division");
+                console.log("You got an A.");
+                break;
+            case 'B':
+                result=("Second Division");
+                console.log("You got a B.");
+                break;
+            default:
+                console.log("You didn't get an A or B.");
+        }
+    </script>
+</body>
+</html>
